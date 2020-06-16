@@ -1,0 +1,4 @@
+include ':mskin'
+include ':app'
+include ':night'
+rootProject.name = "MSkinDemo"

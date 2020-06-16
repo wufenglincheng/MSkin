@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="praise_anim_view" type="id" />
+  <item name="like_bubble_anim_view" type="id" />
+  <item name="comment_like_view_token" type="id" />
+</resources>

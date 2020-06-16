@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/coordinator"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/skin_background"
+  android:fitsSystemWindows="true"
+  app:statusBarBackground="@color/skin_toolbar_bg"
+  tools:context=".MainActivity">
+
+  <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/skin_toolbar_bg"
+    app:title="@string/app_name"
+    app:titleTextColor="#fff" />
+
+  <com.example.mskindemo.view.FragmentTabHost
+    android:id="@+id/tabHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:layout_marginBottom="60dp">
+
+    <FrameLayout
+      android:id="@+id/container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+  </com.example.mskindemo.view.FragmentTabHost>
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="bottom"
+    android:background="@color/skin_background"
+    app:menu="@menu/bottom_navigation" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

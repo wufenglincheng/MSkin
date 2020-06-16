@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="color_level1">#999999</color>
+  <color name="color_level2">#595959</color>
+  <color name="color_level3">#D9D9D9</color>
+  <color name="color_level4">#FFFFFF</color>
+  <color name="skin_focus">#C3111A</color>
+  <!-- 卡片背景 -->
+  <color name="color_card_bg">#262626</color>
+  <!-- 卡片分割条 -->
+  <color name="skin_line">#1B1B1B</color>
+  <!-- 列表分割线 -->
+  <color name="skin_sp">#1B1B1B</color>
+  <color name="skin_toolbar_bg">#393939</color>
+  <color name="skin_link">#FF0B93FF</color>
+
+
+  <color name="skin_background">@color/color_card_bg</color>
+  <color name="skin_item_background">@color/color_card_bg</color>
+  <color name="skin_textColor">@color/color_level1</color>
+  <color name="skin_textColor_content">@color/color_level1</color>
+  <color name="skin_title_color">@color/color_level1</color>
+  <color name="skin_place_holder">@color/color_level2</color>
+  <color name="skin_bottom_default_color">@color/color_level2</color>
+  <color name="skin_sidebar_bg">@color/color_card_bg</color>
+
+
+  <color name="surface_color1_normal">#262626</color>
+  <color name="surface_color1_pressed">#f3f3f3</color>
+  <color name="surface_color8_normal">#000000</color>
+  <color name="text_color17_normal">#80F6F6F6</color>
+  <color name="line_color2_normal">#000000</color>
+
+  <color name="home_tab_color_select">#9C9C9C</color>
+  <color name="home_tab_color_normal">#809C9C9C</color>
+
+  <color name="background_light">@color/color_card_bg</color>
+  <color name="text_color1_normal">@color/skin_textColor_content</color>
+  <color name="text_color4_normal">@color/skin_link</color>
+  <color name="kwai_color_gray_2">@color/color_card_bg</color>
+</resources>

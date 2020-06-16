@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="MyActivity">
+    <attr name="contentBackground" format="color" />
+  </declare-styleable>
+  <declare-styleable name="CustomView">
+    <attr name="bgColor" format="color" />
+    <attr name="leftDrawable" format="reference" />
+  </declare-styleable>
+</resources>

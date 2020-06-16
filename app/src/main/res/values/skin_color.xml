@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_level1">#262626</color>
+    <color name="color_level2">#757575</color>
+    <color name="color_level3">#BDBDBD</color>
+    <color name="color_level4">#FFFFFF</color>
+    <color name="skin_focus">#3F51B5</color>
+    <!-- 卡片背景 -->
+    <color name="color_card_bg">#FFFFFF</color>
+    <!-- 卡片分割条 -->
+    <color name="skin_line">#EEEEEE</color>
+    <!-- 列表分割线 -->
+    <color name="skin_sp">#e8e8e8</color>
+    <color name="skin_toolbar_bg">#3F51B5</color>
+
+    <color name="skin_background">@color/color_card_bg</color>
+    <color name="skin_item_background">@color/color_card_bg</color>
+    <color name="skin_textColor">@color/color_level1</color>
+    <color name="skin_textColor_content">@color/color_level1</color>
+    <color name="skin_title_color">@color/color_level1</color>
+    <color name="skin_place_holder">@color/color_level2</color>
+    <color name="skin_bottom_default_color">@color/color_level2</color>
+    <color name="skin_sidebar_bg">@color/color_card_bg</color>
+    <color name="background_light">@color/color_card_bg</color>
+</resources>
